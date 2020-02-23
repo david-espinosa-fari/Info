@@ -5,7 +5,6 @@ const config = require('../../config/config');
 const callback = function(req, res){
     try {
         const payload = jwt.decode(req.headers.authorization, config.TOKEN_SECRET);
-        console.log(payload);
         if (payload.role !== 'admin' && payload.role !== 'user'){
             throw new Error('User not admin');
         }
