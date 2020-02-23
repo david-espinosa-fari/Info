@@ -1,5 +1,5 @@
-const ClientError = require('./ClientsException/ClientsError');
-const Client = function(id, name, email, role){
+const UserError = require('./UserException/UserError');
+const User = function(id, name, email, role){
     const client = {
         'id': '',
         'name': name,
@@ -10,16 +10,16 @@ const Client = function(id, name, email, role){
     setRole(role);
     function setId(id){
         if ( !id){
-            throw new ClientError('ClientError Id not provided.', 400);
+            throw new UserError('ClientError Id not provided.', 400);
         }
         client.id = id;
     }
     function setRole(role){
         if ( !role){
-            throw new ClientError('ClientError role not provided.', 400);
+            throw new UserError('ClientError role not provided.', 400);
         }
         client.role = role;
     }
     return client;
 };
-module.exports = Client;
+module.exports = User;
