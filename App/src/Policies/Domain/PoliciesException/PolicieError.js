@@ -1,4 +1,4 @@
-class ClientsError
+class PolicieError
 {
     message;
     code;
@@ -20,4 +20,4 @@ class ClientsError
     };
 }
 
-module.exports = ClientsError;
+module.exports = PolicieError;
