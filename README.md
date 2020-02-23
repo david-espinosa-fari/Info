@@ -4,7 +4,7 @@ Excercise Infortec
 ## How to
 ### Clon proyect
 - `git clone https://github.com/david-espinosa-fari/EjercicioInfortec.git`
-- cd EjercicioInfortec
+- cd EjercicioInfortec/App
 
 ### Install
 - `npm install`
