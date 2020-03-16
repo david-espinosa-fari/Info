@@ -7,6 +7,7 @@ const policiesRepo = require('../../src/Policies/Infraestructure/PoliceMockyRepo
 describe('Policy model', function(){
     describe('#new Policy ', function(){
         it('should return a object on valid fields with 6 fields', function(done){
+            expect.assertions(2);
             const policy = Policy(
                 'id',
                 1234,
@@ -65,7 +66,6 @@ describe('Policy model', function(){
         });
     });
 });
-
 /*****************
  * #Policy Repository
  *
@@ -74,6 +74,7 @@ describe('Policy model', function(){
 describe('Policy repository', function(){
     describe('#policiesRepo ', function(){
         it('should be an object when called with 2 fields', async function(done){
+            expect.assertions(2);
             expect(Object.keys(policiesRepo)).toHaveLength(2);
             expect(typeof policiesRepo).toBe('object');
             done();

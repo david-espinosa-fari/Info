@@ -56,6 +56,7 @@ describe('User model', function(){
 describe('Users use cases', function(){
     describe('#findUserByName->invoke ', function(){
         it('should resolve to object on valid name with 4 fields', async function(done){
+            expect.assertions(2);
             const users = await filterUserByName(userRepo).invoke('Britney');
             expect(typeof users[0]).toBe('object');
             expect(Object.keys(users[0])).toHaveLength(4);
@@ -66,6 +67,7 @@ describe('Users use cases', function(){
 describe('Users use cases', function(){
     describe('#findUserByName->invoke ', function(){
         test('should reject whit message "Name provided not found" and code "404" when bad name', function(){
+            expect.assertions(2);
             return filterUserByName(userRepo).invoke('ss')
                 .then(function(xxx){
                 })
@@ -84,6 +86,7 @@ describe('Users use cases', function(){
 describe('Users use cases', function(){
     describe('#findUserById->invoke ', function(){
         it('should resolve to object on valid user id with 4 fields', async function(done){
+            expect.assertions(2);
             const users = await findUserById(userRepo).invoke('a0ece5db-cd14-4f21-812f-966633e7be86');
             expect(typeof users).toBe('object');
             expect(Object.keys(users)).toHaveLength(4);
@@ -94,6 +97,7 @@ describe('Users use cases', function(){
 describe('Users use cases', function(){
     describe('#findUserById->invoke ', function(){
         test('should reject whit message "Id provided not found" and code "404" when bad user id', function(){
+            expect.assertions(2);
             return findUserById(userRepo).invoke('ss')
                 .then(function(xxx){
                 })
@@ -112,6 +116,7 @@ describe('Users use cases', function(){
 describe('Users use cases', function(){
     describe('#findUserPolicies->invoke ', function(){
         it('should resolve to object policies on valid user id with 6 fields', async function(done){
+            expect.assertions(2);
             const policies = await findUserPolicies(policiesRepo).invoke('a0ece5db-cd14-4f21-812f-966633e7be86');
             expect(typeof policies[0]).toBe('object');
             expect(Object.keys(policies[0])).toHaveLength(6);
@@ -122,6 +127,7 @@ describe('Users use cases', function(){
 describe('Users use cases', function(){
     describe('#findUserPolicies->invoke ', function(){
         test('should reject whit message "Not policies found for this client" and code "404" when bad user id', function(){
+            expect.assertions(2);
             return findUserPolicies(policiesRepo).invoke('ss')
                 .then(function(xxx){
                 })
@@ -142,6 +148,7 @@ describe('Users use cases', function(){
 describe('Users repository', function(){
     describe('#userRepo ', function(){
         it('should be an object when called with 2 fields', async function(done){
+            expect.assertions(2);
             expect(Object.keys(userRepo)).toHaveLength(2);
             expect(typeof userRepo).toBe('object');
             done();
@@ -151,6 +158,7 @@ describe('Users repository', function(){
 describe('Users repository', function(){
     describe('#userRepo ', function(){
         it('should have functions "findUserById, filterUserByName"', async function(done){
+            expect.assertions(4);
             expect(typeof userRepo.findUserById).toBe('function');
             expect(typeof userRepo.filterUserByName).toBe('function');
             expect(userRepo.findUserById.name).toEqual('findClientById');
