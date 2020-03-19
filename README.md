@@ -2,7 +2,7 @@
 Excercise Infortec
 
 
-[![Actions Status](https://github.com/github/EjercicioInfortec/workflows/NodeCI/badge.svg)](https://github.com/github/EjercicioInfortec/workflows/)
+[![Actions Status](https://github.com/github/EjercicioInfortec/workflows/NodeCI/badge.svg)](https://github.com/github/EjercicioInfortec/actions)
 
 ![](https://github.com/actions/hello-world/workflows/Greet%20Everyone/badge.svg)
 ## How to
