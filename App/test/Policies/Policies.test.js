@@ -93,3 +93,15 @@ describe('Policy repository', function(){
         });
     });
 });
+describe('Policy repository', function(){
+    describe('#policiesRepo ', function(){
+        it('should have functions "fetchUserPolicies, findPolicyById"', async function(done){
+            expect.assertions(5);
+            expect(typeof policiesRepo.fetchUserPolicies).toBe('function');
+            expect(typeof policiesRepo.findPolicyById).toBe('function');
+            expect(policiesRepo.fetchUserPolicies.name).toEqual('findUserPoliced');
+            expect(policiesRepo.findPolicyById.name).toEqual('findPolicyById');
+            done();
+        });
+    });
+});
