@@ -1,7 +1,6 @@
 # EjercicioInfortec
 Excercise Infortec
-![](https://github.com/david-espinosa-fari/EjercicioInfortec/tree/master/.github/workflows/Node.jsCI/badge.svg)
-
+[![Build Status](https://travis-ci.org/david-espinosa-fari/EjercicioInfortec.svg?branch=master)](https://travis-ci.org/david-espinosa-fari/EjercicioInfortec)
 
 
 ![](https://github.com/actions/hello-world/workflows/Greet%20Everyone/badge.svg)
