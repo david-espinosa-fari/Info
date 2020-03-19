@@ -2,7 +2,7 @@
 Excercise Infortec
 - [![Build Status](https://travis-ci.org/david-espinosa-fari/EjercicioInfortec.svg?branch=master)](https://travis-ci.org/david-espinosa-fari/EjercicioInfortec)
 
-[![Actions Status](https://github.com/github/EjercicioInfortec/workflows/Node.jsCI/badge.svg)](https://github.com/github/linguist/actions)
+[![Actions Status](https://github.com/github/EjercicioInfortec/workflows/Node.jsCI/badge.svg)](https://github.com/github/EjercicioInfortec/actions)
 
 ![](https://github.com/actions/hello-world/workflows/Greet%20Everyone/badge.svg)
 ## How to
