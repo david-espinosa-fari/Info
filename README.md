@@ -2,9 +2,8 @@
 Excercise Infortec
 
 
-[![Actions Status](https://github.com/github/EjercicioInfortec/workflows/NodeCI/badge.svg)](https://github.com/github/EjercicioInfortec/actions)
+[![](https://github.com/david-espinosa-fari/EjercicioInfortec/workflows/NodeCI/badge.svg)](https://github.com/david-espinosa-fari/EjercicioInfortec/actionss)
 
-![](https://github.com/actions/hello-world/workflows/Greet%20Everyone/badge.svg)
 ## How to
 ### Clon proyect
 - `git clone https://github.com/david-espinosa-fari/EjercicioInfortec.git`
