@@ -2,7 +2,7 @@
 Excercise Infortec
 
 
-[![](https://github.com/david-espinosa-fari/EjercicioInfortec/workflows/NodeCI/badge.svg)](https://github.com/david-espinosa-fari/EjercicioInfortec/actions)
+[![](https://github.com/david-espinosa-fari/EjercicioInfortec/workflows/Tests/badge.svg)](https://github.com/david-espinosa-fari/EjercicioInfortec/actions)
 
 ## How to
 ### Clon proyect
