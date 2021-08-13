@@ -1,5 +1,5 @@
 # EjercicioInfortec
-Excercise Infortec
+Excercise Info
 
 
 [![](https://github.com/david-espinosa-fari/EjercicioInfortec/workflows/Tests/badge.svg)](https://github.com/david-espinosa-fari/EjercicioInfortec/actions)
